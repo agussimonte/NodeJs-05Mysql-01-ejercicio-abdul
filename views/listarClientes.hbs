@@ -1,0 +1,29 @@
+<table border="1">
+  <tr>
+    <td>ID_CLIENTE</td>
+    <td>nombreCliente</td>
+    <td>apellidoCliente</td>
+    <td>fNacimientoCliente</td>
+    <td>pesoCliente</td>
+    <td>alturaCliente</td>
+    <td>domicilioCliente</td>
+    <td>codPostal</td>
+    <td>tel01</td>
+    <td>emailCliente</td>
+  </tr>
+{{#each clientes}}
+  <tr>  
+    <td>{{ID_CLIENTE}} </td> 
+    <td>{{nombreCliente}}</td> 
+    <td>{{apellidoCliente}}</td>
+    <td>{{fNacimientoCliente}}</td>
+    <td>{{pesoCliente}}</td>
+    <td>{{alturaCliente}}</td>
+    <td>{{domicilioCliente}}</td>
+    <td>{{codPostal}}</td>
+    <td>{{tel01}}</td>
+    <td>{{emailCliente}}</td>
+  </tr>   
+{{/each}}
+</table>
+<a href="/">Retornar</a>
